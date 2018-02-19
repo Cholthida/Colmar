@@ -1,0 +1,293 @@
+@media only screen and (max-width: 480px) {
+  header {
+    width: 64px;
+  }
+  banner {
+    h1 {
+      padding: 32px 0px 32px 16px;
+    }
+    .btn {
+      padding: 24px 0px 32px 16px;
+    }
+  }
+  .activity-img {
+    padding-bottom: 32px;
+  }
+  .activity-img img {
+    padding-top: 16px;
+    padding-left: 16px;
+    .col-md-8 {
+      h3 {
+        padding-left: 16px;
+      }
+    }
+  }
+  .activity-img .row {
+    padding-top: 64px;
+  }
+  .course {
+    padding-bottom: 24px;
+  }
+  .course h1 {
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+  .course h2 {
+    padding: 16px 0px 24px 16px;
+    margin-bottom: 8px;
+  }
+  .supporting h1 {
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+  video {
+    padding-bottom: 24px;
+  }
+  footer {
+    padding: 16px 0px 16px 16px;
+  }
+}
+html {
+  width: 1600px;
+  height: auto;
+  font-family: Helvetica;
+}
+header {
+  height: 64px;
+  width: 1600px;
+
+}
+nav {
+  height: 64px;
+  width: 1600px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24px;
+}
+nav .nav {
+  display: inline-flex;
+  align-items: center;
+}
+nav .ul {
+  display: inline-flex;
+  align-items: center;
+  list-style-type: none;
+  padding-right: 24px;
+  margin-right: 24px;
+}
+nav li{
+ display: inline-flex;
+ padding-right: 16px;
+ margin-right: 24px;
+}
+
+banner {
+  width: 1600;
+  height: auto;;
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+  display: inline-flex;
+  background-color: lightgrey;
+}
+banner img {
+  width: 60%;
+  height: auto;
+}
+.details {
+  margin-left: 24px;
+  font-size: 32px;
+  font-family: Helvetica;
+}
+.btn {
+  font-weight: bold;
+  font-family: Helvetica;
+  padding: 8px 0px;
+  text-align: center;
+}
+/*----------------*/
+main {
+  width: 1600px;
+  height: auto;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  padding-right: 0px;
+  display: inline-flex;
+  align-items: center;
+}
+ .container {
+  width: 60%;
+  height: auto;
+  display: inline-block;
+}
+main img {
+  width: 100%;
+}
+/*--------------------------------*/
+main .activity-img {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+}
+.activity-img .row {
+ width: 35%%;
+ height: auto;
+ display: inline-flex;
+}
+.row {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+.row img {
+ width: 35%;
+ padding: 16px;
+}
+.row .col-md-8 {
+  width: 65%;
+}
+#lecture {
+  background-color: lightgrey;
+}
+.blue {
+  color: blue;
+}
+/*------------------COURSE--------------------------*/
+.course {
+  background-color: lightgrey;
+  text-align: center;
+}
+ .course h1{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  font-size: 32px;
+}
+#h1{
+  text-align: center;
+}
+.course-container {
+  padding-top: 0px;
+  padding-right: 72px;
+  padding-bottom: 32px;
+  padding-left: 72px;
+  text-align: left;
+
+}
+.course-container .row {
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+}
+.course-container img {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+.col-sm-4 div{
+  padding-left: 16px;
+  margin-left: 16px;
+
+}
+.col-sm-4 h3 {
+  font-weight: lighter;
+}
+#ComArt {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+#Business {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.col-md-8 {
+  padding: 16px 0px 32px 16px;
+
+}
+/*------------------SUPPORTING--------------------------------*/
+
+.supporting{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+h1 {
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.supporting-header {
+  display: inline-flex;
+  align-items: center;
+}
+ video {
+  width: 60%;
+  height: auto;
+}
+.supporting-row {
+  width: 40%;
+  height: auto;
+  text-align: left;
+  padding: 16px;
+}
+.row-sup {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+.supporting-row  img {
+  width: 35%;
+  height: auto;
+}
+#Fishma {
+  background-color: lightgrey;
+
+}
+
+.supporting-row .col-md-8{
+  width: 65%;
+}
+.urban {
+  text-align: left;
+  padding-left: 24px;
+}
+.urban h2 {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+.urban p {
+  padding-bottom: 32px;
+}
+/*-------------------footer---------------------*/
+footer {
+  width: auto;
+  height: auto;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+}
+footer p {
+  float: left;
+}
+ul {
+  float: right;
+  font-weight: lighter;
+}
+footer li{
+  display: inline-flex;
+  align-items: center;
+}
