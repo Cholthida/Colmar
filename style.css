@@ -261,8 +261,6 @@ footer li{
     background-image: url("C:\Users\sk778\Downloads\Colmar\images\ic-login.svg");
     padding: 0.5px;
   }
-}
-  @media only screen and (max-width: 480px){
   banner img {
     width: 60%;
     padding-bottom: 32px;
