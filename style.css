@@ -245,3 +245,60 @@ footer li{
   display: inline-flex;
   align-items: center;
 }
+@media only screen and (max-width: 480px) {
+  nav {
+    height: 64px;
+
+  }
+  nav img{
+    background-image: url("C:\Users\sk778\Downloads\Colmar\images\ic-logo.svg");
+    background-image: url("C:\Users\sk778\Downloads\Colmar\images\ic-on-campus.svg");
+    background-image: url("C:\Users\sk778\Downloads\Colmar\images\ic-online.svg");
+    background-image: url("C:\Users\sk778\Downloads\Colmar\images\ic-login.svg");
+    padding: 0.5px;
+  }
+  banner img {
+    padding-bottom: 32px;
+  }
+  banner h1 {
+    padding-left: 16px;
+    padding-bottom: 32px;
+  }
+  banner h3 {
+    padding-bottom: 24px;
+  }
+  .activity-img {
+    padding-bottom: 32px;
+  }
+  .row {
+    padding-bottom: 64px;
+  }
+ .row img {
+    padding: 16px;
+  }
+  .col-md-8 h3 {
+    padding-left: 16px;
+  }
+  .course {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .course h1 {
+    padding-bottom: 16px;
+  }
+  .course-container h2 {
+    padding-top: 16px 0px 24px 16px;
+  }
+  .supporting {
+    padding-top: 32px;
+  }
+  .supporting h1 {
+    padding-bottom: 16px;
+  }
+  video {
+      padding-bottom: 24px;
+  }
+  footer {
+    padding: 16px 0px 16px 16px;
+  }
+}
